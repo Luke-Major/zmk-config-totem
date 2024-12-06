@@ -111,10 +111,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                &kp ESC    &trans     &kp UP_ARROW  &kp EQUAL         &kp LBRC     &kp RBRC       &kp N7           &kp N8        &kp N9        &kp PLUS
-                &kp LSHFT  &kp LEFT   &trans        &kp RIGHT         &kp LBKT     &kp RBKT       &kp NUMBER_4     &kp N5        &kp NUMBER_6  &kp MINUS
-&bt BT_CLR_ALL  &kp DEL    &kp PG_UP  &kp DOWN      &kp PG_DN         &kp LPAR     &kp RPAR       &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY  &trans
-                                      &kp LCTRL     &lt 3 LEFT_SHIFT  &kp SPACE    &kp BACKSPACE  &kp RIGHT_SHIFT  &mt LCTRL N0
+                &kp ESC    &kp LESS_THAN  &kp GREATER_THAN        &kp EQUAL         &kp LBRC     &kp RBRC       &kp N7           &kp N8        &kp N9        &kp PLUS
+                &kp LSHFT  &kp LEFT       &kp UP_ARROW            &kp RIGHT         &kp LBKT     &kp RBKT       &kp NUMBER_4     &kp N5        &kp NUMBER_6  &kp MINUS
+&bt BT_CLR_ALL  &kp DEL    &kp PG_UP      &kp DOWN                &kp PG_DN         &kp LPAR     &kp RPAR       &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY  &trans
+                                          &mt LCTRL SINGLE_QUOTE  &lt 3 LEFT_SHIFT  &kp SPACE    &kp BACKSPACE  &kp RIGHT_SHIFT  &mt LCTRL N0
             >;
         };
 
